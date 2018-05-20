@@ -11954,16 +11954,13 @@ angular.module('mm.core.login', [])
         url: '/site',
         templateUrl: 'core/components/login/templates/site.html',
         controller: 'mmLoginSiteCtrl'
-        onEnter: function($state){
-          $state.go('mm_login.credentials',{siteurl:'http://elearning.borobudur.ac.id'});
-        }
     })
     .state('mm_login.credentials', {
         url: '/cred',
         templateUrl: 'core/components/login/templates/credentials.html',
         controller: 'mmLoginCredentialsCtrl',
         params: {
-            siteurl: '',
+            siteurl: 'http://elearning.borobudur.ac.id',
             username: '',
             urltoopen: '',
             siteconfig: null
