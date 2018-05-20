@@ -11960,9 +11960,9 @@ angular.module('mm.core.login', [])
         templateUrl: 'core/components/login/templates/credentials.html',
         controller: 'mmLoginCredentialsCtrl',
         params: {
-            siteurl: 'http://elearning.borobudur.ac.id',
+            siteurl: 'http://elearning.lantai5.com/a/',
             username: '',
-            urltoopen: 'http://elearning.borobudur.ac.id',
+            urltoopen: 'http://elearning.lantai5.com/a/',
             siteconfig: null
         },
         onEnter: ["$state", "$stateParams", function($state, $stateParams) {
@@ -71966,7 +71966,7 @@ angular.module('mm.core')
     "wsextservice" : "local_mobile",
     "gcmpn": "694767596569",
     "customurlscheme": "moodlemobile",
-    "siteurl": "http://elearning.borobudur.ac.id/",
+    "siteurl": "http://elearning.lantai5.com/a/",
     "multisitesdisplay": "select",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "false",
