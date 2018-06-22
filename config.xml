@@ -5,7 +5,7 @@
         id        = "com.borobudur.moodlemobile"
         versionCode = "20230"
         version   = "0.0.1">
-    <name>Universitas Borobudur Elearning App</name>
+    <name>Elearning UNBOR App (Beta)</name>
 
     <description>
         Universitas Borobudur Elearning official app
